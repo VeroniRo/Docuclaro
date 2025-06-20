@@ -1,4 +1,4 @@
-
+<!-- ¡Copiá desde acá! -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,130 +12,109 @@
       background-color: #f8f9fb;
       color: #333;
     }
-
     header {
       background-color: #1a237e;
       color: #fff;
-      padding: 1.5rem;
+      padding: 1rem;
       text-align: center;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-
-    header p {
-      font-size: 1rem;
-      margin-top: 0.5rem;
-      opacity: 0.9;
-    }
-
     .hero {
-      padding: 2rem 1rem;
       text-align: center;
-      background-color: #e8eaf6;
+      padding: 2rem;
     }
-
-    .hero h2 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
+    .hero img {
+      max-width: 100px;
+      margin-bottom: 1rem;
     }
-
     .cards {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 1.5rem;
-      max-width: 600px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 2rem;
     }
-
     .card {
-      background: white;
-      border-radius: 10px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       padding: 1.5rem;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
+      width: 90%;
+      max-width: 400px;
     }
-
-    .card h3 {
-      margin: 0.5rem 0;
-      font-size: 1.2rem;
-    }
-
-    .card p {
-      margin: 0.5rem 0 1rem;
-      font-size: 1rem;
-    }
-
     .card a {
-      background-color: #3949ab;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.7rem 1.5rem;
-      border-radius: 5px;
       display: inline-block;
-      transition: background 0.3s ease;
-    }
-
-    .card a:hover {
-      background-color: #303f9f;
-    }
-
-    footer {
+      margin-top: 1rem;
+      text-decoration: none;
       background-color: #1a237e;
-      color: white;
-      padding: 1rem;
-      font-size: 0.9rem;
-      text-align: center;
-      margin-top: 3rem;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 6px;
+      transition: background-color 0.3s;
     }
-
-    @media (min-width: 600px) {
-      .cards {
-        flex-direction: row;
-        justify-content: center;
-      }
-
-      .card {
-        width: 30%;
-      }
+    .card a:hover {
+      background-color: #3949ab;
+    }
+    .instructions {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1a237e;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      max-width: 500px;
+      border-radius: 10px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .instructions h3 {
+      margin-top: 0;
+      color: #1a237e;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>DocuClaro</h1>
-    <p>Entendé tus documentos con ayuda de la IA</p>
   </header>
-
-  <section class="hero">
-    <h2>“Lo complejo puede ser claro. Solo necesitás la herramienta correcta.”</h2>
-  </section>
-
+  <div class="hero">
+    <p>Subí tu documento y nuestra inteligencia artificial te lo explica en lenguaje claro y sencillo.</p>
+  </div>
   <section class="cards">
     <div class="card">
-      <h3>1 hoja</h3>
+      <h3>Explicación 1 hoja</h3>
       <p>$1.000</p>
-      <a href="https://mpago.la/2DfAEU1" target="_blank">Pagar y subir</a>
+      <a href="https://mpago.la/1gRpPTU" target="_blank">Pagar y subir</a>
     </div>
     <div class="card">
-      <h3>Hasta 5 hojas</h3>
+      <h3>Explicación hasta 5 hojas</h3>
       <p>$2.500</p>
-      <a href="https://mpago.la/23LDeUv" target="_blank">Pagar y subir</a>
+      <a href="https://mpago.la/2CoCiNx" target="_blank">Pagar y subir</a>
     </div>
     <div class="card">
-      <h3>Hasta 10 hojas</h3>
-      <p>$4.500</p>
-      <a href="https://mpago.la/1nHKxfe" target="_blank">Pagar y subir</a>
+      <h3>Explicación hasta 10 hojas</h3>
+      <p>$4.000</p>
+      <a href="https://mpago.la/22SdJ17" target="_blank">Pagar y subir</a>
     </div>
   </section>
+
+  <div class="instructions">
+    <h3>¿Cómo funciona?</h3>
+    <p>✅ Elegí el botón según la cantidad de hojas de tu documento.</p>
+    <p>✅ Realizá el pago en forma segura con Mercado Pago.</p>
+    <p>✅ Luego, serás redirigido a la plataforma <strong>ChatDOC</strong>.</p>
+    <p>📎 Subí tu documento en PDF, Word o imagen clara.</p>
+    <p>🧠 La IA te explicará el contenido en lenguaje sencillo.</p>
+    <p>🔒 Tus archivos no se almacenan. Privacidad 100% garantizada.</p>
+  </div>
 
   <footer>
     Este sitio funciona de forma automatizada. No se almacenan documentos. Privacidad garantizada.
   </footer>
-
 </body>
 </html>
+<!-- ¡Hasta acá! -->
